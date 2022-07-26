@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./portfolio.css">
+  
+  <title>My Projects</title>
+</head>
+<body>
+
+  <nav class="nav-container">
+    <img class="nav-logo" src="./images/logo.svg" alt="logo" onclick="window.location='./index.html'">
+    <ul class="nav-links">
+      <li><a id="home" href="./index.html">Home</a></li>
+      <li><a id="portfolio" href="./portfolio.html">Portfolio</a></li>
+      <li><a id="contact" href="./contact.html">Contact Me</a></li>   
+    </ul>
+    <div class="nav-hamburger">
+      <img class="hamburger" src="./images/icons/hamburger.svg" alt="menu">
+      <img class="close" src="./images/icons/close.svg" alt="close menu">
+      <ul class="menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact Me</a></li>   
+      </ul>
+    </div>
+  </nav>
+
+  <div class="proj-container">
+    <picture>
+      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/image-portfolio-manage@2x.jpg">
+      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/image-portfolio-manage@2x.jpg">
+      <img src="./images/portfolio/mobile/image-portfolio-manage@2x.jpg">
+    </picture>
+    <div class="proj-info">
+      <h2>Manage</h2>
+      <p class="body1">This project required me to build a fully responsive landing page to the designs provided. 
+        I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, 
+        such as the testimonial slider.</p>
+        <button class="secondary-btn" id="manage-btn">View Project</button>
+    </div>
+
+  </div>
+
+  <div class="proj-container left">
+    <div class="proj-info left">
+      <h2>Bookmark</h2>
+      <p class="body1">This project required me to build a fully responsive landing page to the designs provided. I 
+        used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such 
+        as the features section.</p>
+        <button class="secondary-btn" id="bookmark-btn">View Project</button>
+    </div>
+    <picture>
+      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/image-portfolio-bookmark@2x.jpg">
+      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/image-portfolio-bookmark@2x.jpg">
+      <img src="./images/portfolio/mobile/image-portfolio-bookmark@2x.jpg">
+    </picture>
+  </div>
+
+  <div class="proj-container">
+    <picture>
+      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/image-portfolio-insure@2x.jpg">
+      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/image-portfolio-insure@2x.jpg">
+      <img src="./images/portfolio/mobile/image-portfolio-insure@2x.jpg">
+    </picture>
+    <div class="proj-info">
+      <h2>Insure</h2>
+      <p class="body1">This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive 
+        landing page. The only JavaScript this project required was to enable the toggling of the 
+        mobile navigation.</p>
+        <button class="secondary-btn" id="insure-btn">View Project</button>
+    </div>
+
+  </div>
+
+  <div class="proj-container left">
+    <div class="proj-info left">
+      <h2>Fylo</h2>
+      <p class="body1">This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and 
+        built it so that it was fully-responsive. I took a mobile-first approach and used modern 
+        CSS like Flexbox and Grid for layout purposes.</p>
+        <button class="secondary-btn" id="fylo-btn">View Project</button>
+    </div>
+    <picture>
+      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/image-portfolio-fylo@2x.jpg">
+      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/image-portfolio-fylo@2x.jpg">
+      <img src="./images/portfolio/mobile/image-portfolio-fylo@2x.jpg">
+    </picture>
+  </div>
+
+  <div class="contact-container">
+    <h2>Interested in doing a project together?</h2>
+    <div class="separator"></div>
+    <button class="secondary-btn" onclick="location.href='./contact.html'">Contact Me</button>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <img class="footer-logo" src="./images/logo-light.svg" alt="logo" onclick="window.location='./index.html'">
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact Me</a></li>   
+      </ul>
+      <div class="footer-medias">
+        <img class="footer-icon" src="./images/icons/github.svg">
+        <img src="./images/icons/twitter.svg">
+        <img src="./images/icons/linkedin.svg">
+      </div>
+    </div>
+  </footer>
+
+  <script>
+      const manageBtn = document.getElementById("manage-btn");
+      const bookmarkBtn = document.getElementById("bookmark-btn");
+      const insureBtn = document.getElementById("insure-btn");
+      const fyloBtn = document.getElementById("fylo-btn");
+
+      manageBtn.addEventListener("click", () => {
+        location.href = "./manage.html"
+      })
+      bookmarkBtn.addEventListener("click", () => {
+        location.href = "./bookmark.html"
+      })
+      insureBtn.addEventListener("click", () => {
+        location.href = "./insure.html"
+      })
+      fyloBtn.addEventListener("click", () => {
+        location.href = "./fylo.html"
+      })
+
+  </script>
+  <script src="./script.js"></script>
+  
+
+</body>
+
+</html>

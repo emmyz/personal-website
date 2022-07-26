@@ -1,0 +1,19 @@
+const manageBtn = document.getElementById("manage-btn");
+const bookmarkBtn = document.getElementById("bookmark-btn");
+const insureBtn = document.getElementById("insure-btn");
+const fyloBtn = document.getElementById("fylo-btn");
+const hamburger = document.querySelector(".hamburger");
+const close = document.querySelector(".close");
+
+manageBtn.addEventListener("click", ()=>{
+    location.href = "./manage.html"
+})
+bookmarkBtn.addEventListener("click", ()=>{
+    location.href = "./bookmark.html"
+})
+insureBtn.addEventListener("click", ()=>{
+    location.href = "./insure.html"
+})
+fyloBtn.addEventListener("click", ()=>{
+    location.href = "./fylo.html"
+})

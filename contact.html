@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./contact.css">
+  
+  <title>Contact Me</title>
+</head>
+<body>
+
+  <nav class="nav-container">
+    <img class="nav-logo" src="./images/logo.svg" alt="logo" onclick="window.location='./index.html'">
+    <ul class="nav-links">
+      <li><a id="home" href="./index.html">Home</a></li>
+      <li><a id="portfolio" href="./portfolio.html">Portfolio</a></li>
+      <li><a id="contact" href="./contact.html">Contact Me</a></li>   
+    </ul>
+    <div class="nav-hamburger">
+      <img class="hamburger" src="./images/icons/hamburger.svg" alt="menu">
+      <img class="close" src="./images/icons/close.svg" alt="close menu">
+      <ul class="menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact Me</a></li>   
+      </ul>
+    </div>
+  </nav>
+
+  <div class="contact1-container">
+    <div class="contact-title"><h2>Get in Touch</h2></div>
+    <div class="contact-info">
+      <p class="body1">I’d love to hear about what you’re working on and how I could help. I’m currently 
+        looking for a new role and am open to a wide range of opportunities. My preference 
+        would be to find a position in a company in London. But I’m also happy to hear about 
+        opportunites that don’t fit that description. I’m a hard-working and positive person 
+        who will always approach each task with a sense of purpose and attention to detail. 
+        Please do feel free to check out my online profiles below and get in touch using the form.</p>
+        <div class="contact-medias">
+          <img class="footer-icon" src="./images/icons/github.svg">
+          <img src="./images/icons/twitter.svg">
+          <img src="./images/icons/linkedin.svg">
+        </div>
+      </div>
+  </div>
+
+  <div class="contact2-container">
+    <h2 class="contact-title">Contact Me</h2>
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Jane Appleseed">
+
+      <label for="email">Email Address</label>
+      <input id="email" type="text" placeholder="email@example.com">
+
+      <label for="msg">Message</label>
+      <textarea id="msg" placeholder="How can I help?"></textarea>
+
+      <button class="primary-btn send">Send Message</button>
+    </form>
+
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <img class="footer-logo" src="./images/logo-light.svg" alt="logo" onclick="window.location='./index.html'">
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact Me</a></li>   
+      </ul>
+      <div class="footer-medias">
+        <img class="footer-icon" src="./images/icons/github.svg">
+        <img src="./images/icons/twitter.svg">
+        <img src="./images/icons/linkedin.svg">
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
