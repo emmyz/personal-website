@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./detail.css">
-  
-  <title>Insure Project</title>
+
+  <title>Skilled Project</title>
 </head>
+
 <body>
 
   <nav class="nav-container">
-    <img  class="nav-logo" src="./images/logo.svg" alt="logo" onclick="window.location='./index.html'">
+    <img class="nav-logo" src="./images/logo.svg" alt="logo" onclick="window.location='./index.html'">
     <ul class="nav-links">
       <li><a id="home" href="./index.html">Home</a></li>
       <li><a id="portfolio" href="./portfolio.html">Portfolio</a></li>
-      <li><a id="contact" href="./contact.html">Contact Me</a></li>   
+      <li><a id="contact" href="./contact.html">Contact Me</a></li>
     </ul>
     <div class="nav-hamburger">
       <img class="hamburger" src="./images/icons/hamburger.svg" alt="menu">
@@ -24,55 +26,51 @@
       <ul class="menu">
         <li><a href="./index.html">Home</a></li>
         <li><a href="./portfolio.html">Portfolio</a></li>
-        <li><a href="./contact.html">Contact Me</a></li>   
+        <li><a href="./contact.html">Contact Me</a></li>
       </ul>
     </div>
   </nav>
 
   <div class="container">
     <picture>
-      <source media="(min-width: 1110px)" srcset="./images/detail/desktop/image-insure-hero@2x.jpg">
-      <source media="(min-width: 768px)" srcset="./images/detail/tablet/image-insure-hero@2x.jpg">
-      <img src="./images/detail/mobile/image-insure-hero@2x.jpg">
+      <source media="(min-width: 1110px)" srcset="./images/detail/desktop/project-skilled-banner.png">
+      <source media="(min-width: 768px)" srcset="./images/detail/tablet/project-skilled-banner.png">
+      <img src="./images/detail/mobile/project-skilled-banner.png">
     </picture>
     <div class="detail-container">
       <div class="side-container">
-        <h2>Insure</h2>
-        <p class="body2">This was a small project which mostly consisted of HTML and CSS. I built a 
-          fully-responsive landing page. The only JavaScript this project required was 
-          to enable the toggling of the mobile navigation.</p>
+        <h2>Skilled</h2>
+        <p class="body2">This was a small project which mostly consisted of HTML and CSS. I built a
+          fully-responsive landing page and get it looking close to the design as possible.</p>
         <p class="skills">Interaction Design / Front End Development</p>
-        <p class="skills">HTML / CSS / JS</p>
-        <button class="secondary-btn visit">Visit Website</button>
+        <p class="skills">HTML / CSS</p>
+        <button onclick="location.href='https://emmyz.github.io/skilled-elearning-landing-page/'" class="secondary-btn visit">Visit Website</button>
       </div>
       <div class="overview-container">
         <h3>Project Background</h3>
-        <p class="body2">This project was a front-end  challenge from Frontend Mentor. It’s a platform that 
-          enables you to practice building websites to a design and project brief. Each challenge 
-          includes mobile and desktop designs to show how the website should look at different 
-          screen sizes. Creating these projects has helped me refine my workflow and solve 
-          real-world coding problems. I’ve learned something new with each project, helping 
-          me to improve and adapt my style.</p>
+        <p class="body2">This project was to build a e-learning landing page to a design. Users are able to view the
+          optimal layout and responsive design depending on their device’s screen size and see hover states for
+          interactive elements.</p>
         <h3>Static Previews</h3>
         <picture>
           <source media="(min-width: 1110px)" src="./images/detail/desktop/image-insure-preview-1@2x.jpg">
           <source media="(min-width: 768px)" src="./images/detail/tablet/image-insure-preview-1@2x.jpg">
-          <img src="./images/detail/tablet/image-insure-preview-1@2x.jpg">
+          <img src="./images/detail/desktop/project-skilled-preview1.jpg">
         </picture>
         <picture>
           <source media="(min-width: 1110px)" src="./images/detail/desktop/image-insure-preview-2@2x.jpg">
           <source media="(min-width: 768px)" src="./images/detail/tablet/image-insure-preview-2@2x.jpg">
-          <img src="./images/detail/tablet/image-insure-preview-2@2x.jpg">
+          <img src="./images/detail/desktop/project-skilled-preview2.jpg">
         </picture>
       </div>
-      
+
     </div>
 
     <div class="route-container">
       <div class="prev-route">
         <img src="./images/icons/arrow-left.svg">
         <div class="prev-description">
-          <h3>Bookmark</h3>
+          <h3>Splitter</h3>
           <p class="body1">Previous Project</p>
         </div>
       </div>
@@ -101,7 +99,7 @@
       <ul class="nav-links">
         <li><a href="./index.html">Home</a></li>
         <li><a href="./portfolio.html">Portfolio</a></li>
-        <li><a href="./contact.html">Contact Me</a></li>   
+        <li><a href="./contact.html">Contact Me</a></li>
       </ul>
       <div class="footer-medias">
         <img class="footer-icon" src="./images/icons/github.svg">
@@ -115,15 +113,16 @@
     const prevRoute = document.querySelector(".prev-route");
     const nextRoute = document.querySelector(".next-route");
 
-    prevRoute.addEventListener("click", ()=>{
-      window.location.href = "./bookmark.html"
+    prevRoute.addEventListener("click", () => {
+      window.location.href = "./splitter.html"
     })
-    nextRoute.addEventListener("click", ()=>{
-      window.location.href = "./fylo.html"
+    nextRoute.addEventListener("click", () => {
+      window.location.href = "./components.html"
     })
   </script>
 
-<script src="./script.js"></script>
+  <script src="./script.js"></script>
 
 </body>
+
 </html>

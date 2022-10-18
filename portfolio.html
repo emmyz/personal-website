@@ -31,12 +31,12 @@
 
   <div class="proj-container">
     <picture>
-      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/image-portfolio-manage@2x.jpg">
-      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/image-portfolio-manage@2x.jpg">
-      <img src="./images/portfolio/mobile/image-portfolio-manage@2x.jpg">
+      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/portfolio-desktop-gituser.png">
+      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/portfolio-tablet-gituser.png">
+      <img src="./images/portfolio/mobile/portfolio-mobile-gituser.png">
     </picture>
     <div class="proj-info">
-      <h2>Manage</h2>
+      <h2>GitUser</h2>
       <p class="body1">This project required me to build a fully responsive landing page to the designs provided. 
         I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, 
         such as the testimonial slider.</p>
@@ -47,30 +47,28 @@
 
   <div class="proj-container left">
     <div class="proj-info left">
-      <h2>Bookmark</h2>
-      <p class="body1">This project required me to build a fully responsive landing page to the designs provided. I 
-        used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such 
-        as the features section.</p>
+      <h2>Splitter</h2>
+      <p class="body1">This project required me to build a fully responsive tip calculator app to the designs provided. I 
+        used HTML5, along with CSS Flexbox and JavaScript for the logics to calculate correct tip and total cost per person.</p>
         <button class="secondary-btn" id="bookmark-btn">View Project</button>
     </div>
     <picture>
-      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/image-portfolio-bookmark@2x.jpg">
-      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/image-portfolio-bookmark@2x.jpg">
-      <img src="./images/portfolio/mobile/image-portfolio-bookmark@2x.jpg">
+      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/portfolio-splitter.png">
+      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/portfolio-tablet-splitter.png">
+      <img src="./images/portfolio/mobile/portfolio-mobile-splitter.png">
     </picture>
   </div>
 
   <div class="proj-container">
     <picture>
-      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/image-portfolio-insure@2x.jpg">
-      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/image-portfolio-insure@2x.jpg">
-      <img src="./images/portfolio/mobile/image-portfolio-insure@2x.jpg">
+      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/portfolio-desktop-skilled.png">
+      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/portfolio-tablet-skilled.png">
+      <img src="./images/portfolio/mobile/portfolio-mobile-skilled.png">
     </picture>
     <div class="proj-info">
-      <h2>Insure</h2>
-      <p class="body1">This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive 
-        landing page. The only JavaScript this project required was to enable the toggling of the 
-        mobile navigation.</p>
+      <h2>Skilled</h2>
+      <p class="body1">This was a small project which mostly consisted of HTML and CSS. I built a
+        fully-responsive landing page and get it looking close to the design as possible.</p>
         <button class="secondary-btn" id="insure-btn">View Project</button>
     </div>
 
@@ -78,16 +76,16 @@
 
   <div class="proj-container left">
     <div class="proj-info left">
-      <h2>Fylo</h2>
-      <p class="body1">This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and 
-        built it so that it was fully-responsive. I took a mobile-first approach and used modern 
-        CSS like Flexbox and Grid for layout purposes.</p>
+      <h2>Components</h2>
+      <p class="body1">These components was built in HTML, CSS and JS and was built to be fully-responsive. I took used modern
+        CSS like Flexbox for layout purposes and built it looking as close to
+        the design as possible.</p>
         <button class="secondary-btn" id="fylo-btn">View Project</button>
     </div>
     <picture>
-      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/image-portfolio-fylo@2x.jpg">
-      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/image-portfolio-fylo@2x.jpg">
-      <img src="./images/portfolio/mobile/image-portfolio-fylo@2x.jpg">
+      <source media="(min-width: 1110px)" srcset="./images/portfolio/desktop/portfolio-desktop-components.png">
+      <source media="(min-width: 768px)" srcset="./images/portfolio/tablet/portfolio-tablet-components.png">
+      <img src="./images/portfolio/mobile/portfolio-mobile-components.png">
     </picture>
   </div>
 
@@ -113,26 +111,7 @@
     </div>
   </footer>
 
-  <script>
-      const manageBtn = document.getElementById("manage-btn");
-      const bookmarkBtn = document.getElementById("bookmark-btn");
-      const insureBtn = document.getElementById("insure-btn");
-      const fyloBtn = document.getElementById("fylo-btn");
-
-      manageBtn.addEventListener("click", () => {
-        location.href = "./manage.html"
-      })
-      bookmarkBtn.addEventListener("click", () => {
-        location.href = "./bookmark.html"
-      })
-      insureBtn.addEventListener("click", () => {
-        location.href = "./insure.html"
-      })
-      fyloBtn.addEventListener("click", () => {
-        location.href = "./fylo.html"
-      })
-
-  </script>
+  <script src="./portfolio.js"></script>
   <script src="./script.js"></script>
   
 

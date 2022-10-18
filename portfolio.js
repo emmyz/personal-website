@@ -6,14 +6,14 @@ const hamburger = document.querySelector(".hamburger");
 const close = document.querySelector(".close");
 
 manageBtn.addEventListener("click", ()=>{
-    location.href = "./manage.html"
+    location.href = "./gituser.html"
 })
 bookmarkBtn.addEventListener("click", ()=>{
-    location.href = "./bookmark.html"
+    location.href = "./splitter.html"
 })
 insureBtn.addEventListener("click", ()=>{
-    location.href = "./insure.html"
+    location.href = "./skilled.html"
 })
 fyloBtn.addEventListener("click", ()=>{
-    location.href = "./fylo.html"
+    location.href = "./components.html"
 })

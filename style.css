@@ -8,10 +8,10 @@
 
 h1{
     font-family: 'Ibarra Real Nova', sans-serif;
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 700;
     letter-spacing: -0.45px;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 h2{
@@ -134,8 +134,8 @@ body{
 }
 
 .banner-info{
-    width: 445px;
-    height: 357px;
+    width: 360px;
+    height: 262px;
     background: #FAFAFA;
     z-index: 2;
     position: absolute;
@@ -144,7 +144,7 @@ body{
 }
 
 .banner-info h1{
-    margin: 56px 55px 53px 0px;
+    margin: 30px 30px 30px 10px;
 }
 
 .banner-img{

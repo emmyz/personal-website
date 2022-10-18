@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./detail.css">
   
-  <title>Fylo Project</title>
+  <title>Small Components</title>
 </head>
 <body>
 
@@ -36,33 +36,33 @@
       <img src="./images/detail/mobile/image-fylo-hero@2x.jpg">
     </picture>
     <div class="detail-container">
-      <div class="side-container">
-        <h2>Fylo</h2>
-        <p class="body2">This project was built in pure HTML and CSS. I had mobile and desktop designs to 
-          work to and built it so that it was fully-responsive. I took a mobile-first approach 
-          and used modern CSS like Flexbox and Grid for layout purposes.</p>
+      <div class="side-container" style="width:40%">
+        <h2>Components</h2>
+        <p class="body2">These components was built in HTML, CSS and JS and was built to be fully-responsive. I took used modern
+          CSS like Flexbox for layout purposes and built it looking as close to
+          the design as possible.</p>
         <p class="skills">Interaction Design / Front End Development</p>
         <p class="skills">HTML / CSS / JS</p>
         <button class="secondary-btn visit">Visit Website</button>
       </div>
       <div class="overview-container">
-        <h3>Project Background</h3>
-        <p class="body2">This project was a front-end challenge from Frontend Mentor. It’s a platform that 
-          enables you to practice building websites to a design and project brief. Each challenge 
-          includes mobile and desktop designs to show how the website should look at different 
-          screen sizes. Creating these projects has helped me refine my workflow and solve 
-          real-world coding problems. I’ve learned something new with each project, helping 
-          me to improve and adapt my style.</p>
-        <h3>Static Previews</h3>
+        <h3>Interactive Rating Component</h3>
+        <p class="body2">This is an interactive rating component to handle user interactions like select and submit a rating and
+          updating the DOM to show the interaction. Also to change to "Thank you" card state after submitting rating.</p>
+
         <picture>
-          <source media="(min-width: 1110px)" src="./images/detail/desktop/image-fylo-preview-1@2x.jpg">
-          <source media="(min-width: 768px)" src="./images/detail/tablet/image-fylo-preview-1@2x.jpg">
-          <img src="./images/detail/tablet/image-fylo-preview-1@2x.jpg">
+          <source media="(min-width: 1110px)" src="./images/detail/desktop/rating-comp-preview.png">
+          <source media="(min-width: 768px)" src="./images/detail/desktop/rating-comp-preview.png">
+          <img src="./images/detail/desktop/rating-comp-preview.png">
         </picture>
+        <h3>Order Summary Component</h3>
+        <p class="body2">This is a order summary component built according to a design using pure HTML and CSS. It is
+          interactive and hover states are
+          implemented.</p>
         <picture>
           <source media="(min-width: 1110px)" src="./images/detail/desktop/image-fylo-preview-2@2x.jpg">
           <source media="(min-width: 768px)" src="./images/detail/tablet/image-fylo-preview-2@2x.jpg">
-          <img src="./images/detail/tablet/image-fylo-preview-2@2x.jpg">
+          <img src="./images/detail/desktop/order-comp-preview.png">
         </picture>
       </div>
       
@@ -72,14 +72,14 @@
       <div class="prev-route">
         <img src="./images/icons/arrow-left.svg">
         <div class="prev-description">
-          <h3>Insure</h3>
+          <h3>Skilled</h3>
           <p class="body1">Previous Project</p>
         </div>
       </div>
       <div class="separator"></div>
       <div class="next-route">
         <div class="next-description">
-          <h3>Manage</h3>
+          <h3>GitUser</h3>
           <p class="body1">Next Project</p>
         </div>
         <img src="./images/icons/arrow-right.svg">
@@ -116,10 +116,10 @@
     const nextRoute = document.querySelector(".next-route");
 
     prevRoute.addEventListener("click", ()=>{
-      window.location.href = "./insure.html"
+      window.location.href = "./skilled.html"
     })
     nextRoute.addEventListener("click", ()=>{
-      window.location.href = "./manage.html"
+      window.location.href = "./gituser.html"
     })
   </script>
 
